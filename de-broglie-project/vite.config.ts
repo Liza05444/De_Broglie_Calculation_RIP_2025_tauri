@@ -10,7 +10,7 @@ import { api_proxy_addr, img_proxy_addr, dest_root } from './src/target_config'
 export default defineConfig({
   base: dest_root,
   server: { 
-    port: 3000,
+    port: 5173,
     host: '192.168.1.20',
     https: {
       key: fs.readFileSync(path.resolve(__dirname, 'cert.key')),
